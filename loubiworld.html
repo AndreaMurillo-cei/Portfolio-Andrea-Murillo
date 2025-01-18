@@ -1,0 +1,127 @@
+<!--
+Descripción: Este HTML contiene la página de un proyecto del sitio web.
+Estructura general:
+  - Encabezado
+  - Barra de navegación
+  - Sección del proyecto
+  - Pie de página
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio-loubiworld</title> <link rel="stylesheet" href="css/loubiworld.css">
+    <link rel="icon" href="assets/imagenes/favicon-am.png" type="image/x-icon">
+    <script src="js/index.js" defer></script>
+
+</head>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<body>
+
+    <header class="header">
+        <h1 class="header__h1">
+            <img src="assets/imagenes/LOGO-70-px.png" alt="Logotipo Andrea Murillo" class="h1">
+            <img src="assets/imagenes/AM_logo-10.png" alt="Logotipo AM" class="h1responsive">
+        </h1>
+    
+        <button class="header__abrir" id="abrir">Menu</button>
+    
+        <nav class="header__nav" id="nav">
+            <button class="header__cerrar" id="cerrar"><img src="assets/imagenes/x-cerrar.svg" alt="Cerrar"></button>
+            <ul class="header__ul">
+                <li><a href="proyectos.html">Proyectos</a></li>
+                <li><a href="sobremi.html">Sobre mí</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<section class="loubiworld">
+       <div class="loubiworld__wrapper">
+            <p class="wrapper__datos-tecnicos">
+            <b>Cliente</b>
+            <br>Christian Louboutin
+            <br><b>Año</b>
+            <br>2022
+            <br><b>Software</b>
+            <br>Adobe Indesign
+            <br>Adobe Photoshop
+            </p>
+
+            <div class="wrapper__info">
+                <h3 class="info__titulo">Loubiworld Fragrance Collection</h3>
+                <p class="info__texto">
+                    Diseño de pasaporte destinado a sesiones de formación de vendedores
+                    de la colección de fragancias Loubiworld, de Christian Louboutin.
+                    Es un juego en sí mismo, contiene páginas con espacios destinados
+                    a colocar pegatinas con la información de cada perfume, la idea es
+                    que se coloque la información en el perfume correcto, para afianzar
+                    los conocimientos sobre cada uno de ellos.
+
+                </p>
+            </div>
+
+
+        </div>
+
+       <div class="wrapper__imagenes">
+        <img src="assets/imagenes/imagen-loubiworld-1.jpg" alt="Doble página del pasaporte de Loubiworld"
+        loading="lazy"/>
+        <img src="assets/imagenes/imagen-loubiworld-2.jpg" alt="Doble página del pasaporte de Loubiworld"
+        loading="lazy"/>
+        <img src="assets/imagenes/imagen-loubiworld-3.jpg" alt="Doble página del pasaporte de Loubiworld"
+        loading="lazy"/>
+        <img src="assets/imagenes/imagen-loubiworld-4.jpg" alt="Doble página del pasaporte de Loubiworld"
+        loading="lazy"/>
+        <img src="assets/imagenes/imagen-loubiworld-5.jpg" alt="Doble página del pasaporte de Loubiworld"
+        loading="lazy"/>
+      </div>
+
+       <div class="loubiworld__botones">
+        <div class="botones__siguiente">
+            <a href="phantom.html">Siguiente proyecto</a>
+        </div>
+    </div>
+</section>
+
+<i class="ir-a-index" id="ir-a-index">
+    <a href="index.html"><img
+        src="assets/imagenes/home.svg"
+        class="icono-index"
+        alt="ir-a-index"></a>
+</i>
+
+
+<i class="desplazarse-hacia-arriba" id="desplazarse-hacia-arriba">
+    <img
+    src="assets/imagenes/arrow-up.svg"
+    class="icono-swiper-slide"
+    alt="desplazarse-hacia-arriba"
+/></i>
+
+<footer class="Footer">
+    <div class="Footer__Wrapper">
+        <ul class="Footer__ul__copyright">
+            <li class="copyright__li">Andrea Murillo © 2025</li>
+        </ul>
+
+        <ul class="Footer__ul__redes">
+            <li class="redes__li__mail">hola@andreamurillo.es</li>
+            <li class="redes__li__linkedIn">
+                <a href="https://www.linkedin.com/in/andrea-murillo-172157165/" class="Enlace a LinkedIn">LinkedIn</a>
+            </li>
+        </ul>
+    </div>
+
+   
+</footer>
+
+    
+</body>
+</html>
